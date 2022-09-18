@@ -1,9 +1,9 @@
 import * as React from 'react';
-import TestWelcomeComponent from './componetns/test-welcome-component/component';
+import HomePage from './componetns/homePage';
 
 const App = () => (
     <div>
-      <TestWelcomeComponent/>
+      <HomePage/>
     </div>
 );
 
