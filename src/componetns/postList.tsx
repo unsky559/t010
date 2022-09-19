@@ -13,7 +13,7 @@ const PostList = (props: propType) => {
   const postList = props.limit ? copy : props.posts;
   return (
         <>
-            {postList.map((pst) => <Post post={pst}/>)}
+            {postList.map((pst) => <Post key={pst.id} post={pst}/>)}
         </>
   );
 };

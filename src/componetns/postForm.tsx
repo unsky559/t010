@@ -15,6 +15,7 @@ const PostForm = (props: propType) => {
 
   const handleSubmit = () => {
     props.submitPost({
+      id: Math.random(),
       name,
       avatarURL: avatar,
       text,
